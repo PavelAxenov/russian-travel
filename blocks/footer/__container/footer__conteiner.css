@@ -1,0 +1,25 @@
+.footer__conteiner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1184px;
+    background-color: #2a2c2f;
+    margin: 92px 0 24px 48px;
+}
+
+@media (max-width: 1279px) {
+    .footer__conteiner {
+        margin: 92px 48px 24px 48px;
+    }
+}
+@media (max-width: 1023px) {
+    .footer__conteiner {
+        margin: 92px 24px 24px 24px;
+    }
+}
+@media (max-width: 767px) {
+    .footer__conteiner {
+        margin: 64px 118px 24px 16px;
+        justify-content: none;
+        flex-direction: column;
+    }
+}
