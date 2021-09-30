@@ -12,11 +12,11 @@
     .photo-grid__container {
         grid-template-columns: repeat(3, 300px);
         gap: 14px;
-        margin: 0 auto;
+        margin: 92px 0 0 48px;
         align-items: center;
     }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .photo-grid__container {
         grid-template-columns: repeat(3, 250px);
         gap: 14px;
