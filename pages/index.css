@@ -37,11 +37,13 @@
 /*Фотки России*/
 
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/page/__photo-grid/page__photo-grid.css);
 @import url(../blocks/photo-grid/__container/photo-grid__container.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /*Места России*/
 @import url(../blocks/places/places.css);
+@import url(../blocks/page/__places/page__places.css);
 @import url(../blocks/places/__container/places__container.css);
 @import url(../blocks/places/place/place.css);
 @import url(../blocks/places/__paragraph/place__paragraph.css);
@@ -55,6 +57,7 @@
 /*До Байкала «на собаках»*/
 
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/page/__cover/page__cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__background/cover__background.css);
@@ -64,6 +67,7 @@
 /*Футер*/
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/page/__footer/page__footer.css);
 @import url(../blocks/footer/__container/footer__conteiner.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
