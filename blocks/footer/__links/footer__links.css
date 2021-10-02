@@ -1,6 +1,5 @@
 .footer__links {
     display: flex;
-    
 }
 
 @media (max-width: 767px) {

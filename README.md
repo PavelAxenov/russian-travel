@@ -8,6 +8,6 @@ ___
 
 В ходе работы были использованы ресурсы для оптимизации изображений, PixelPerfect, а так же основные принципы работы в программе Figma.
 
-* [Ссылка на проект в Githab](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Ссылка на проект в Githab]( https://kishlyanovp.github.io/russian-travel/index.html)
 
 

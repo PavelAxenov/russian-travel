@@ -4,9 +4,8 @@
     justify-content: space-between;
     width: 100%;
     max-width: 1184px;
-    min-height: 52px;
     background-color: #2A2C2F;
-    margin: 0;
+    margin: 0 auto;
     padding: 28px 0 0;
     box-sizing: border-box;
 }
@@ -21,7 +20,6 @@
 
 @media screen and (max-width: 768px) {
     .page__header {
-        min-height: 52px;
         padding: 28px 24px 0;
     }
 }
@@ -29,7 +27,6 @@
 @media screen and (max-width: 427px) {
     .page__header {
         max-width: 340px;
-        min-height: 52px;
         padding-top: 16px;
     }
 }
@@ -37,7 +34,6 @@
 @media screen and (max-width: 320px) {
     .page__header {
         width: 288px;
-        min-height: 42px;
         padding: 16px 0px 0;
     }
 }

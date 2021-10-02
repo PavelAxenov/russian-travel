@@ -1,27 +1,35 @@
 .page__footer {
     display: flex;
     justify-content: space-between;
+    width: 100%;
     max-width: 1184px;
     background-color: #2a2c2f;
-    margin: 0;
-    align-self: flex-start;
+    margin: 92px auto 24px;
+    box-sizing: border-box;
+    align-self: center;
 }
 
 @media (max-width: 1279px) {
     .page__footer {
-        margin: 92px 0 24px 0;
+        margin: 0;
+        padding: 92px 48px 24px;
+        box-sizing: border-box;
     }
 }
 
 @media (max-width: 1023px) {
     .page__footer {
-        margin: 92px 24px 24px 24px;
+        margin: 0;
+        padding: 92px 24px 24px;
+        box-sizing: border-box;
     }
 }
 
 @media (max-width: 767px) {
     .page__footer {
-        margin: 64px 118px 24px 16px;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 64px 118px 24px 16px;
         justify-content: none;
         flex-direction: column;
     }
