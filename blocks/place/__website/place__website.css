@@ -4,6 +4,7 @@
     color: #FFFFFF;
     margin-top: 106px;
 }
+
 @media screen and (max-width: 1200px) {
     .place__website {
         max-width: 456px;
@@ -15,14 +16,14 @@
     .place__website {
         max-width: 352px;
         margin-top: 46px;
-    }   
+    }
 }
 
 @media screen and (max-width: 620px) {
     .place__website {
         max-width: 352px;
         margin-top: 0;
-    }     
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -31,7 +32,6 @@
         margin-left: 16px;
         margin-top: 0;
     }
-     
 }
 
 @media screen and (max-width: 320px) {

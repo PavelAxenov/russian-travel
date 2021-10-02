@@ -9,30 +9,29 @@
     font-size: 16px;
     line-height: 163%;
 }
+
 @media screen and (max-width: 1200px) {
     .intro__text {
         min-height: 208px;
         max-width: 690px;
         margin-bottom: 33px;
         margin-top: 0;
-    }    
+    }
 }
 
 @media screen and (max-width: 768px) {
     .intro__text {
-        
         width: 100%;
-        margin-bottom: 33px; 
-        
-    }    
+        margin-bottom: 33px;
+    }
 }
+
 @media screen and (max-width: 690px) {
     .intro__text {
-        
         width: 100%;
         margin-bottom: 33px;
         max-width: 680px;
-    }    
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -41,7 +40,7 @@
         max-width: 288px;
         margin-bottom: 34px;
         margin-top: 0;
-    }     
+    }
 }
 
 @media screen and (max-width: 320px) {

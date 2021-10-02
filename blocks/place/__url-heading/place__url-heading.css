@@ -1,40 +1,37 @@
-.place__link {
+.place__url-heading {
     max-width: 456px;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-    transition: .5s;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+    color: #AAAAAA;
 }
 
-.place__link:hover {
-    opacity: .5;
-  }
-
 @media screen and (max-width: 1200px) {
-    .place__link {
+    .place__url-heading {
         max-width: 456px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .place__link {
+    .place__url-heading {
         max-width: 456px;
-    }   
+    }
 }
 
 @media screen and (max-width: 426px) {
-    .place__link {
+    .place__url-heading {
         max-width: 288px;
-                  
-    }  
+        letter-spacing: 2px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-    .place__link {
+    .place__url-heading {
         max-width: 288px;
-                  
+        letter-spacing: 2px;
     }
 }

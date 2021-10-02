@@ -8,44 +8,49 @@
     margin-top: 80px;
     flex-wrap: wrap;
     background-color: #2A2C2F;
-    align-items: center;   
+    align-items: center;
 }
+
+.place:first-of-type {
+    margin-top: 0;
+}
+
 @media screen and (max-width: 1200px) {
-    .place {        
+    .place {
         max-width: 984px;
         column-gap: 48px;
         row-gap: 32px;
-        margin-top: 80px;       
+        margin-top: 80px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .place {        
+    .place {
         max-width: 720px;
         column-gap: 28px;
         row-gap: 48px;
-        margin-top: 73px; 
-    }   
+        margin-top: 73px;
+    }
 }
 
 @media screen and (max-width: 620px) {
-    .place {       
+    .place {
         display: grid;
         grid-template-columns: 1fr;
         margin: 0 auto 0;
         max-width: 100%;
         row-gap: 32px;
-        margin-top: 50px;         
-    }     
+        margin-top: 50px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-    .place {       
+    .place {
         display: grid;
         grid-template-columns: 1fr;
         margin: 0 auto 0;
         max-width: 320px;
         row-gap: 32px;
-        margin-top: 50px;        
-    }  
+        margin-top: 50px;
+    }
 }

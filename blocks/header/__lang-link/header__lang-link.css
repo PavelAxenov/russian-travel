@@ -1,4 +1,4 @@
-.header__lang-link {    
+.header__lang-link {
     display: flex;
     flex-direction: row;
     margin-top: auto;
@@ -8,14 +8,17 @@
     line-height: 28px;
     color: #ffffff;
     margin-bottom: 6px;
+    transition: .5s;
   }
+
 @media screen and (max-width: 426px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;
     }
 }
-@media screen and (max-width: 320px) {   
+
+@media screen and (max-width: 320px) {
     .header__lang-link {
         font-size: 18px;
         line-height: 20px;

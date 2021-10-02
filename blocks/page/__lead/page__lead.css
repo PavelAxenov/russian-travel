@@ -1,4 +1,4 @@
-.page__lead {    
+.page__lead {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,11 +7,12 @@
     background-color: #2A2C2F;
     color:#FFFFFF;
 }
+
 @media screen and (max-width: 1024px) {
     .page__lead {
       max-width: 928px;
       margin: 48px auto 0;
-    }  
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -19,15 +20,15 @@
         max-width: 768px;
         max-height: 862px;
         margin: 48px auto 0;
-    }     
+    }
 }
 
 @media screen and (max-width: 720px) {
     .page__lead {
         max-width: 768px;
         max-height: 862px;
-        margin: 48px auto 0;       
-    }   
+        margin: 48px auto 0;
+    }
 }
 
 @media screen and (max-width: 426px) {
@@ -35,7 +36,7 @@
         max-width: 320px;
         max-height: 406px;
         margin: 48px auto 0;
-    }      
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -43,5 +44,5 @@
         max-width: 320px;
         max-height: 406px;
         margin: 48px auto 0;
-    }  
+    }
 }
