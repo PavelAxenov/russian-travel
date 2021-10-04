@@ -1,0 +1,9 @@
+.place__footer {
+    display: flex;
+}
+
+@media screen and (max-width: 750px) {
+    .place__footer {
+        flex-direction: column;
+    }
+}

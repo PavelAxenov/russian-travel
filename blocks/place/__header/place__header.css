@@ -1,0 +1,11 @@
+.place__header {
+    display: flex;
+    padding-bottom: 48px;
+}
+
+@media screen and (max-width: 750px) {
+    .place__header {
+        flex-direction: column;
+        padding-bottom: 32px;
+    }
+}

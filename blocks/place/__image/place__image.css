@@ -1,34 +1,28 @@
 .place__image {
     max-width: 460px;
-    max-height: 460px;
+    padding-right: 40px;
+    object-fit: contain;
+    align-self: flex-start;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1024px) {
     .place__image {
         max-width: 440px;
-        max-height: 440px;
+        padding-right: 32px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
     .place__image {
         max-width: 340px;
-        max-height: 340px;
-        display: flex;
-        align-self: flex-start;
+        padding-right: 28px;
     }
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 750px) {
     .place__image {
-        max-width: 320px;
-        max-height: 320px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__image {
-        max-width: 320px;
-        max-height: 320px;
+        max-width: 100%;
+        padding: 0;
+        align-self: center;
     }
 }

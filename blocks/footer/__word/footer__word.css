@@ -1,0 +1,9 @@
+.footer__word {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer__word:hover {
+    opacity: 0.8;
+}
