@@ -2,16 +2,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: rgb(42, 44, 47, .3);
     color: white;
     text-decoration: none;
-    transition: 0.3s;
     width: 100%;
     min-height: 740px;
     align-items: center;
-}
-.cover__background:hover {
-    opacity: 0.8;
 }
 
 @media screen and (max-width: 1185px) {
