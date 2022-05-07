@@ -8,6 +8,6 @@ ___
 
 В ходе работы были использованы ресурсы для оптимизации изображений, PixelPerfect, а так же основные принципы работы в программе Figma.
 
-* [Ссылка на проект в Githab]( https://kishlyanovp.github.io/russian-travel/index.html)
+* [Ссылка на проект в Githab]( https://PavelAxenov.github.io/russian-travel/index.html)
 
 
